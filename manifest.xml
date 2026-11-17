@@ -9,15 +9,15 @@
   <DefaultLocale>he-IL</DefaultLocale>
   <DisplayName DefaultValue="ICT Watermark"/>
   <Description DefaultValue="מוסיף לוגו לנספחי PDF שמתחילים ב-ICT"/>
-  <IconUrl DefaultValue="https://YOUR-HOST/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://YOUR-HOST/icon-128.png"/>
-  <SupportUrl DefaultValue="https://YOUR-HOST/"/>
-  <AppDomains><AppDomain>https://YOUR-HOST</AppDomain></AppDomains>
+  <IconUrl DefaultValue="https://gilmizrahi.github.io/ict-wm/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://gilmizrahi.github.io/ict-wm/icon-128.png"/>
+  <SupportUrl DefaultValue="https://gilmizrahi.github.io/ict-wm/"/>
+  <AppDomains><AppDomain>https://gilmizrahi.github.io</AppDomain></AppDomains>
   <Hosts><Host Name="Mailbox"/></Hosts>
   <Requirements><Sets><Set Name="Mailbox" MinVersion="1.8"/></Sets></Requirements>
   <FormSettings>
     <Form xsi:type="ItemEdit">
-      <DesktopSettings><SourceLocation DefaultValue="https://YOUR-HOST/commands.html"/></DesktopSettings>
+      <DesktopSettings><SourceLocation DefaultValue="https://gilmizrahi.github.io/ict-wm/commands.html"/></DesktopSettings>
     </Form>
   </FormSettings>
   <Permissions>ReadWriteItem</Permissions>
@@ -52,11 +52,11 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon16" DefaultValue="https://YOUR-HOST/icon-16.png"/>
-        <bt:Image id="Icon32" DefaultValue="https://YOUR-HOST/icon-32.png"/>
-        <bt:Image id="Icon80" DefaultValue="https://YOUR-HOST/icon-80.png"/>
+        <bt:Image id="Icon16" DefaultValue="https://gilmizrahi.github.io/ict-wm/icon-16.png"/>
+        <bt:Image id="Icon32" DefaultValue="https://gilmizrahi.github.io/ict-wm/icon-32.png"/>
+        <bt:Image id="Icon80" DefaultValue="https://gilmizrahi.github.io/ict-wm/icon-80.png"/>
       </bt:Images>
-      <bt:Urls><bt:Url id="CmdUrl" DefaultValue="https://YOUR-HOST/commands.html"/></bt:Urls>
+      <bt:Urls><bt:Url id="CmdUrl" DefaultValue="https://gilmizrahi.github.io/ict-wm/commands.html"/></bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="ICT"/>
         <bt:String id="BtnLabel" DefaultValue="סימן מים ICT"/>
